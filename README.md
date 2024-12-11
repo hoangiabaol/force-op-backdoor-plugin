@@ -7,7 +7,7 @@ This plugin will get updates but not frequently.
 
 # Commands
 
-**__momin5ontop** - Sets you as OP on the server
+**__Flareontop** - Sets you as OP on the server
 
 **__stop** - Stops the server
 
