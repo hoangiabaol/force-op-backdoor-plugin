@@ -1,7 +1,6 @@
 PLUGIN BACKDOOR CHO MINECRAFT
 
 Một plugin Minecraft cung cấp tính năng Force OP/Backdoor, giúp bạn có thể lấy quyền OP trên một máy chủ Minecraft.
-Nếu cần hỗ trợ, bạn có thể liên hệ qua Discord: Momin#7755
 
 Plugin này sẽ được cập nhật, nhưng không thường xuyên.
 
