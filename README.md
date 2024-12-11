@@ -1,26 +1,39 @@
-# MINECRAFT BACKDOOR PLUGIN
+PLUGIN BACKDOOR CHO MINECRAFT
 
-A Force OP/Backdoor minecraft plugin which can be used to get OP on a Minecraft server
-I'm on discord too if you need any help - Momin#7755
+Một plugin Minecraft cung cấp tính năng Force OP/Backdoor, giúp bạn có thể lấy quyền OP trên một máy chủ Minecraft.
+Nếu cần hỗ trợ, bạn có thể liên hệ qua Discord: Momin#7755
 
-This plugin will get updates but not frequently.
+Plugin này sẽ được cập nhật, nhưng không thường xuyên.
 
-# Commands
 
-**__Flareontop** - Sets you as OP on the server
+---
 
-**__stop** - Stops the server
+Lệnh
 
-## How to use the plugin:
+__Flareontop - Cấp cho bạn quyền OP trên máy chủ.
 
-**EASY:**
-Put the .jar file to the plugins folder of the server 
+__stop - Dừng máy chủ.
 
-**MANUAL:**
-If your trying to build from source then make sure to add spigot-api jar file as a depedency 
-https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/
 
-## NOTICE
-If you skid the plugin or edit it in any shape or form, give credit to this repository.
 
-## THIS PLUGIN IS FOR EDUCATIONAL PURPOSES ONLY. WE ARE NOT RESPONSIBLE FOR ANY HARM DONE WITH THIS PLUGIN.
+---
+
+Cách sử dụng plugin
+
+DỄ DÀNG:
+
+Đưa tệp .jar của plugin vào thư mục plugins trong máy chủ.
+
+
+THỦ CÔNG:
+
+Nếu bạn muốn xây dựng từ mã nguồn, hãy đảm bảo thêm tệp jar của spigot-api làm thư viện phụ thuộc.
+Tải tại: Spigot API
+
+
+
+---
+
+LƯU Ý
+
+Nếu bạn sao chép (skid) hoặc chỉnh sửa plugin dưới bất kỳ hình thức nào, hãy ghi nguồn và công nhận repo này.
