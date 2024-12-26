@@ -32,7 +32,5 @@ Tải tại: Spigot API
 
 
 ---
-
-LƯU Ý
-
-Nếu bạn sao chép (skid) hoặc chỉnh sửa plugin dưới bất kỳ hình thức nào, hãy ghi nguồn và công nhận repo này.
+cre:
+(https://github.com/MOMIN5/force-op-backdoor-plugin)
